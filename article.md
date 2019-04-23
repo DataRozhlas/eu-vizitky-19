@@ -7,7 +7,7 @@ styles: []
 libraries: [jquery] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-Český rozhlas oslovil všechny kandidující uskupení, příležitost představit se ve volební vizitce žádné z nich neodmítlo – jejich lídři a zástupci odpovídali v pořadí, které odpovídá číslům jejich kandidátek.
+Český rozhlas oslovil všechna kandidující uskupení, příležitost představit se ve volební vizitce žádné z nich neodmítlo – jejich lídři a zástupci odpovídali v pořadí, které odpovídá číslům jejich kandidátek.
 
 V jedné minutě respondenti shrnuli program, se kterým o přízeň voličů bojují. Následně měli po 30 sekundách na zodpovězení pěti otázek. Čemu konkrétně se chtějí v europarlamentu věnovat? Měla by se Evropská unie nějak změnit? Ve které frakci chtějí pracovat? Na co by měla EU vydávat největší část svého rozpočtu a je důležité umět cizí jazyky?
 
