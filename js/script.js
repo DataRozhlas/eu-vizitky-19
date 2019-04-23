@@ -50,7 +50,7 @@ function makeTable() {
         + data[per].jmeno
         + '" src="'
         + host + 'media/foto/'
-        + data[per].file + '.JPG'
+        + data[per].file + '.jpg'
         +'"></div></li>'
     }
     out += '</ul>'
