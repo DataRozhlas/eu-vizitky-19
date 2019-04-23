@@ -7,12 +7,23 @@ styles: []
 libraries: [jquery] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-Český rozhlas oslovil všechna kandidující uskupení, příležitost představit se ve volební vizitce žádné z nich neodmítlo – jejich lídři a zástupci odpovídali v pořadí, které odpovídá číslům jejich kandidátek.
-
-V jedné minutě respondenti shrnuli program, se kterým o přízeň voličů bojují. Následně měli po 30 sekundách na zodpovězení pěti otázek. Čemu konkrétně se chtějí v europarlamentu věnovat? Měla by se Evropská unie nějak změnit? Ve které frakci chtějí pracovat? Na co by měla EU vydávat největší část svého rozpočtu a je důležité umět cizí jazyky?
+Český rozhlas oslovil všechna kandidující uskupení, příležitost představit se ve volební vizitce žádné z nich neodmítlo – jejich lídři a zástupci odpovídali ve stejném limitu na šest otázek. Shrnuli program, se kterým se chtějí ucházet o přízeň voličů a přiblížili, čemu konkrétně se v europarlamentu chtějí věnovat. Kompletní seznam otázek najdete pod audiopříspěvky.
 
 <wide>
 <div class="insert">
     <div id="bottom" class="vizitky"></div>
 </div>
 </wide>
+
+Podoba volebních vizitek je pro všechny kandidáty jednotná. Český rozhlas položil celkem šest otázek.
+
+1. Teď máte přesně jednu minutu na představení programu… (k dispozici 60 sekund)
+2. Jak si představujete své osobní zapojení do práce Evropského parlamentu? Čemu konkrétně se chcete věnovat Vy osobně? (k dispozici 30 sekund)
+3. Měla by se EU nějak měnit? V čem? (k dispozici 30 sekund)
+4. Ve které frakci Evropského parlamentu budete v případě zvolení pracovat? (k dispozici 30 sekund)
+5. Na co by měla EU vydávat největší část svého rozpočtu? Ve kterých oblastech by měla výdaje posílit a kde omezit? (k dispozici 30 sekund)
+6. Je podle Vás důležité, jestli poslanci Evropského parlamentu umí cizí jazyky? Které jazyky Vy osobně ovládáte? (k dispozici 30 sekund)
+
+Na první otázku měli kandidáti minutu, časový limit u dalších pěti je 30 sekund. Respondenti mohli odpovědět v kratším čase, ušetřené sekundy se ale nepřeváděly.
+
+Kandidáti sice všechny otázky předem znali, při natáčení ale museli odpovídat z hlavy a na první pokus. Pokud se ztratili v odpovědi, mohli se vrátit na začátek příslušné věty a zopakovat ji. Nemohli ale mít před sebou připravený text ani poznámky na papíře nebo v mobilním telefonu nebo tabletu. Pořadí určil los, na který dohlížel notář.
