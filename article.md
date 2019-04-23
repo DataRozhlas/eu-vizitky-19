@@ -1,39 +1,40 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-published: "21. dubna 2019"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+title: "Volební vizitky: Souboj o Prahu. Kdo usedne do primátorského křesla?"
+perex: "Češi si začátkem října vyberou své zastupitele ve městech a obcích. Objem peněz a dopady jejich rozhodování jsou ve velkých městech srovnatelné s leckterým ministerstvem. Jeden z nesledovanějších soubojů se povede o pražský magistrát. Český rozhlas proto oslovil všechny kandidáty, kteří se ucházejí o post primátora. Kdo nahradí stávající primátorku Adrianu Krnáčovou z ANO, rozhodnou voliči v pátek 5. a sobotu 6. října."
+published: "28. září 2018"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/profimedia-015082003_180927-132757_ako.jpg?itok=EChjdEr9
+coverimg_note: "Foto: Profimedia"
 styles: []
-libraries: [] #jquery, d3, highcharts, datatables
-options: [noheader] #wide, noheader (, nopic)
+libraries: [jquery] #jquery, d3, d3v5, d3csv, highcharts, datatables
+options: [] #wide, noheader (, nopic)
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
+Český rozhlas oslovil všech 29 lídrů stran a hnutí, kteří by po podzimních komunálních volbách chtěli vést Prahu. Někteří z nich ale nabídku na natočení volební vizitky nevyužili nebo za sebe poslali jiného stranického kandidáta. Pravidla pro volební vizitky jsou veřejně dostupná [zde](https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-zastupitelstva-hl-m-prahy-2018--1803007).
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve "špičce" okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+<wide>
+<div class="insert">
+    <div id="bottom" class="vizitky"></div>
+</div>
+</wide>
 
-Naopak v noci se nejvíc lidí se "namačká" ve Vršovicích, jde o 430 osob na hektar.
+Podoba volebních vizitek je pro všechny kandidáty jednotná. Český rozhlas jim položil celkem šest otázek. První dotaz zní „Proč by lidé měli volit právě Vaší stranu/hnutí/sdružení/koalici?“ a na odpověď mají všichni jednu minutu.
+ 
+Časový limit u dalších pěti otázek je 30 sekund. Kandidáti samozřejmě můžou odpovědět v kratším čase, ušetřené sekundy se ale nepřevádějí.
 
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
+### Český rozhlas se dále ptal:
 
-<wide><i>Pokud vás zajímá, "kolik" lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte "posuvníkem" nahoře.</i></wide>
+  + Co je podle Vás v současné době největším problémem Prahy?
+  
+  + Jak byste ho chtěl řešit?
+  
+  + Mělo by podle Vás hlavní město Praha aktivně podpořit výstavbu nových bytů? Pokud ano, jak?
+  
+  + Chtěl byste v příštích 4 letech zahájit nějaké nové dopravní stavby? Pokud ano, které?
+  
+  + Jak konkrétně byste chtěl zlepšit život obyvatel Prahy?
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+Kandidáti do zastupitelstva hlavního města Prahy sice všechny otázky předem znali, při natáčení ale museli odpovídat z hlavy a na první pokus. Pokud se ztratili v odpovědi, mohli se vrátit na začátek příslušné věty a zopakovat ji. Nemohli ale mít před sebou připravený text ani poznámky na papíře nebo v mobilním telefonu nebo tabletu.
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+Rozhovory s jednotlivými kandidáty se ve vysílání Českého rozhlasu Regina a Region objeví postupně. Pořadí určil los, na který dohlížel [notář](https://www.rozhlas.cz/informace/volby2018/_zprava/poradi-ucasti-kandidujicich-subjektu-v-jednotlivych-poradech-predvolebniho-vysilani-ceskeho-rozhlasu--1803448).
 
-Mobilní operátor má ["zákonnou povinnost"](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+<h3><a href="https://www.irozhlas.cz/volby/komunalni-volby-2018" title="Sčítací aplikace Komunální volby 2018">Komunální volby 2018</a></h3>
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy "zbavit" identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+<h3><a href="https://www.irozhlas.cz/volby/senatni-volby-2018" title="Sčítací aplikace Senátní volby 2018">Senátní volby 2018</a></h3>

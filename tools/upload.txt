@@ -1,0 +1,1 @@
+aws s3 cp ./ s3://datarozhlas/eu-vizitky-19/media --recursive --acl public-read
