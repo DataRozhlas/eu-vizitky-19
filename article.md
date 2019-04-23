@@ -4,7 +4,7 @@ published: "23. dubna 2019"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/profimedia-015082003_180927-132757_ako.jpg?itok=EChjdEr9
 coverimg_note: "Foto: Profimedia"
 styles: []
-libraries: [jquery] #jquery, d3, d3v5, d3csv, highcharts, datatables
+libraries: [] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
 Český rozhlas oslovil všechna kandidující uskupení, příležitost představit se ve volební vizitce žádné z nich neodmítlo – jejich lídři a zástupci odpovídali ve stejném limitu na šest otázek. Shrnuli program, se kterým se chtějí ucházet o přízeň voličů a přiblížili, čemu konkrétně se v europarlamentu chtějí věnovat. Kompletní seznam otázek najdete pod audiopříspěvky.
