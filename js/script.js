@@ -37,14 +37,14 @@ function makeTable() {
         <span class="strana">${data[per].partaj}</span>
         <span class="supplemental">${data[per].povolani}</span>
         ${data[per].pozn != null ? `<div><span class="supplemental">${data[per].pozn}</span></div>` : ""}
-        <span class="share">Sdílet na <a class="share-link" href="#" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" href="#" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${per}`}>Twitter</a></span>
+        <span class="share">Sdílet na <a class="share-link" href="#" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" href="#" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${per}`}>Twitter</a> | <a target="_blank" href="https://data.irozhlas.cz/eu-vizitky-19/iframes.html#${data[per].file}">Vložit do stránky</a></span>
         ${data[per].afile !== "x" ? `<div><audio class="player" src="${host}media/audio/${data[per].file}.mp3" preload="none" controls="yes"></audio></div>` : ""}
       </div>
       <div class="left">
         <img width="120" height="180" alt="${data[per].jmeno}" src="${`${host}media/foto/${data[per].file}.jpg`}">
       </div>
     `;
-    // <a target="_blank" href="https://www.irozhlas.cz/volby/senatni-volby-2018/kandidati-vizitky/embed-vizitky-senatoru#' + data[per].file +'">Embed</a>
+    // 
     outList.appendChild(entry);
   });
 

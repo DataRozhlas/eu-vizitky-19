@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://data.irozhlas.cz/eu-vizitky-19/css/styl.css">
+
+<script src="https://data.irozhlas.cz/eu-vizitky-19/js/data_var.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<div id="frm" class="vizitky"></div>
+
+<script>
+var host = "https://data.irozhlas.cz/eu-vizitky-19/";
+var id = window.location.href.split("?")[1].split('_')[0];
+
+var frm = document.getElementById('frm');
+
+frm.innerHTML = `
+    <ul>
+        <li>
+            <div class="right">
+        <h2>
+          <span class="cislo">${id}</span>
+          <span>${data[id].jmeno}</span>
+        </h2>
+        <span class="strana">${data[id].partaj}</span>
+        <span class="supplemental">${data[id].povolani}</span>
+        ${data[id].pozn != null ? `<div><span class="supplemental">${data[id].pozn}</span></div>` : ""}
+        <span class="share">Sdílet na <a class="share-link" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${id}`}>Facebook</a> | <a class="share-link" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${id}`}>Twitter</a> | <a target="_blank" href="https://data.irozhlas.cz/eu-vizitky-19/iframes.html#${data[id].file}">Vložit do stránky</a></span>
+        ${data[id].afile !== "x" ? `<div><audio class="player" src="${host}media/audio/${data[id].file}.mp3" preload="none" controls="yes"></audio></div>` : ""}
+      </div>
+      <div class="left">
+        <img width="120" height="180" alt="${data[id].jmeno}" src="${`${host}media/foto/${data[id].file}.jpg`}">
+      </div></li></ul>
+    `;
+
+  
+var shareLinks = document.getElementsByClassName("share-link");
+
+  for (var i = 0; i < shareLinks.length; i++) {
+    shareLinks[i].addEventListener("click", function (e) {
+      return window.open(e.target.dataset.shareLink, "Sdílení", "width=550,height=450,scrollbars=no");
+    });
+  }
+
+  var players = document.getElementsByClassName("player");
+
+  for (var _i = 0; _i < players.length; _i++) {
+    players[_i].addEventListener("click", function () {
+      ga("gtm1.send", "event", "ondemand", "play", "Volby do Evropsk\xE9ho parlamentu - vizitka l\xEDdra ".concat(_this.src.split("/").slice(-1)[0].split(".")[0]));
+    });
+  }
+
+</script>
