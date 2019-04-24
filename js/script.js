@@ -37,7 +37,7 @@ function makeTable() {
         <span class="strana">${data[per].partaj}</span>
         <span class="supplemental">${data[per].povolani}</span>
         ${data[per].pozn != null ? `<div><span class="supplemental">${data[per].pozn}</span></div>` : ""}
-        <span class="share">Sdílet na <a class="share-link" href=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" href=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${per}`}>Twitter</a> | <a target="_blank" href="https://data.irozhlas.cz/eu-vizitky-19/iframes.html#${data[per].file}">Vložit do stránky</a></span>
+        <span class="share">Sdílet na <a class="share-link" href=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" href=${`https://twitter.com/share?url=${window.location.href.split("?")[0]}?${per}`}>Twitter</a> | <a target="_blank" href="https://data.irozhlas.cz/eu-vizitky-19/iframes.html#${data[per].file}">Vložit do stránky</a></span>
         ${data[per].afile !== "x" ? `<div><audio class="player" src="${host}media/audio/${data[per].file}.mp3" preload="none" controls="yes"></audio></div>` : ""}
       </div>
       <div class="left">
