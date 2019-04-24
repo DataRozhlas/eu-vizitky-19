@@ -56,7 +56,7 @@ function makeTable() {
   for (let i = 0; i < shareLinks.length; i++) {
     shareLinks[i].addEventListener("click", (e) => {
       e.preventDefault();
-      window.open(e.target.dataset.shareLink, "Sdílení", "width=550,height=450,scrollbars=no");
+      window.open(e.target.attributes["data-share-link"].textContent, "Sdílení", "width=550,height=450,scrollbars=no");
     });
   }
 
