@@ -135,3 +135,9 @@
 	order: 3;
 }
 
+.vol_link {
+	display: block;
+	color: red;
+	font-size: 16px;
+}
+

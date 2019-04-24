@@ -29,6 +29,7 @@ frm.innerHTML = `
         ${data[id].pozn != null ? `<div><span class="supplemental">${data[id].pozn}</span></div>` : ""}
         <span class="share">Sdílet na <a class="share-link" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${id}`}>Facebook</a> | <a class="share-link" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${id}`}>Twitter</a> | <a target="_blank" href="https://data.irozhlas.cz/eu-vizitky-19/iframes.html#${data[id].file}">Vložit do stránky</a></span>
         ${data[id].afile !== "x" ? `<div><audio class="player" src="${host}media/audio/${data[id].file}.mp3" preload="none" controls="yes"></audio></div>` : ""}
+        <a target="_blank" rel="noopener noreferrer" style="font-size: 20px; color: #da0000; font-weight: bold;" href="https://www.irozhlas.cz/volby">Volební zpravodajství na serveru iROZHLAS.cz</a>
       </div>
       <div class="left">
         <img width="120" height="180" alt="${data[id].jmeno}" src="${`${host}media/foto/${data[id].file}.jpg`}">
