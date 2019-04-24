@@ -37,7 +37,7 @@ function makeTable() {
         <span class="strana">${data[per].partaj}</span>
         <span class="supplemental">${data[per].povolani}</span>
         ${data[per].pozn != null ? `<div><span class="supplemental">${data[per].pozn}</span></div>` : ""}
-        <span class="share">Sdílet na <a class="share-link" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${per}`}>Twitter</a></span>
+        <span class="share">Sdílet na <a class="share-link" href="#" data-share-link=${`https://www.facebook.com/sharer/sharer.php?u=${window.location.href.split("?")[0]}?${per}`}>Facebook</a> | <a class="share-link" href="#" data-share-link=${`https://twitter.com/home?status=${window.location.href.split("?")[0]}?${per}`}>Twitter</a></span>
         ${data[per].afile !== "x" ? `<div><audio class="player" src="${host}media/audio/${data[per].file}.mp3" preload="none" controls="yes"></audio></div>` : ""}
       </div>
       <div class="left">
@@ -54,7 +54,10 @@ function makeTable() {
 
   const shareLinks = document.getElementsByClassName("share-link");
   for (let i = 0; i < shareLinks.length; i++) {
-    shareLinks[i].addEventListener("click", e => window.open(e.target.dataset.shareLink, "Sdílení", "width=550,height=450,scrollbars=no"));
+    shareLinks[i].addEventListener("click", (e) => {
+      e.preventDefault();
+      window.open(e.target.dataset.shareLink, "Sdílení", "width=550,height=450,scrollbars=no");
+    });
   }
 
   const players = document.getElementsByClassName("player");
