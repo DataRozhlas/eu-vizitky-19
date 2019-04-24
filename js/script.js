@@ -19,6 +19,14 @@ function makeSelect() {
   }
 }
 
+function unshit(val){
+  if (parseInt(val) > 19) {
+    return parseInt(val) + 1
+  } else {
+    return val
+  }
+}
+
 function makeTable() {
   const header = document.createElement("h1");
   header.appendChild(document.createTextNode("Evropský parlament"));
@@ -28,10 +36,11 @@ function makeTable() {
   Object.keys(data).forEach((per) => {
     const entry = document.createElement("li");
     entry.id = per;
+
     entry.innerHTML = `
       <div class="right">
         <h2>
-          <span class="cislo">${per.split("_")[0]}</span>
+          <span class="cislo">${unshit(per.split("_")[0])}</span>
           <span>${data[per].jmeno}</span>
         </h2>
         <span class="strana">${data[per].partaj}</span>
